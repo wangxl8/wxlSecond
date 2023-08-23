@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/logs/all.log" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/logs/all.log.2023-08-17" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/logs/error.log" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testcases/pom/pages/userRegisterPage1.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testcases/pom/tests/test_UserRegister.py" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>
