@@ -1,0 +1,225 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcases.pom.tests",
+    "children" : [ {
+      "name" : "test_AdminLogin",
+      "children" : [ {
+        "name" : "TestAdminLogin",
+        "children" : [ {
+          "name" : "test_admin_login[wxl-123456-222-JPress\\u540e\\u53f0]",
+          "uid" : "951e71de76b5bea9",
+          "parentUid" : "6ff8b44a262602688ba3b18de38def1c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1692691225851,
+            "stop" : 1692691227237,
+            "duration" : 1386
+          },
+          "flaky" : false,
+          "parameters" : [ "'222'", "'JPress后台'", "'123456'", "'wxl'" ]
+        } ],
+        "uid" : "6ff8b44a262602688ba3b18de38def1c"
+      } ],
+      "uid" : "87764e5b80d2828ece5758fbb24db0a8"
+    }, {
+      "name" : "test_Article",
+      "children" : [ {
+        "name" : "TestAdminLogin",
+        "children" : [ {
+          "name" : "test_admin_login[wxl-123456-222-JPress\\u540e\\u53f0]",
+          "uid" : "3aef621f0ab808c4",
+          "parentUid" : "89284f12d2d02d3a77c79318d29912ed",
+          "status" : "passed",
+          "time" : {
+            "start" : 1692691230662,
+            "stop" : 1692691232013,
+            "duration" : 1351
+          },
+          "flaky" : false,
+          "parameters" : [ "'222'", "'JPress后台'", "'123456'", "'wxl'" ]
+        } ],
+        "uid" : "89284f12d2d02d3a77c79318d29912ed"
+      }, {
+        "name" : "TestArticle",
+        "children" : [ {
+          "name" : "test_add_ok[\\u6211\\u7684\\u6587\\u7ae001-\\u6211\\u7684\\u6587\\u7ae0\\u5185\\u5bb901-\\u6587\\u7ae0\\u4fdd\\u5b58\\u6210\\u529f\\u3002]",
+          "uid" : "84fc34130dcab515",
+          "parentUid" : "71028730d5cd1b2d5486921e48ba01d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1692691232103,
+            "stop" : 1692691233833,
+            "duration" : 1730
+          },
+          "flaky" : false,
+          "parameters" : [ "'我的文章内容01'", "'文章保存成功。'", "'我的文章01'" ]
+        }, {
+          "name" : "test_add_ok[\\u6211\\u7684\\u6587\\u7ae002-\\u6211\\u7684\\u6587\\u7ae0\\u5185\\u5bb902-\\u6587\\u7ae0\\u4fdd\\u5b58\\u6210\\u529f\\u3002]",
+          "uid" : "e31623cbfd5ae2a0",
+          "parentUid" : "71028730d5cd1b2d5486921e48ba01d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1692691233837,
+            "stop" : 1692691234773,
+            "duration" : 936
+          },
+          "flaky" : false,
+          "parameters" : [ "'我的文章内容02'", "'文章保存成功。'", "'我的文章02'" ]
+        }, {
+          "name" : "test_add_ok[\\u6211\\u7684\\u6587\\u7ae003-\\u6211\\u7684\\u6587\\u7ae0\\u5185\\u5bb903-\\u6587\\u7ae0\\u4fdd\\u5b58\\u6210\\u529f\\u3002]",
+          "uid" : "e60a6f770d2e28d5",
+          "parentUid" : "71028730d5cd1b2d5486921e48ba01d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1692691234779,
+            "stop" : 1692691235624,
+            "duration" : 845
+          },
+          "flaky" : false,
+          "parameters" : [ "'我的文章内容03'", "'文章保存成功。'", "'我的文章03'" ]
+        }, {
+          "name" : "test_delete_one_article_ok",
+          "uid" : "daf7f3bedec385a4",
+          "parentUid" : "71028730d5cd1b2d5486921e48ba01d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1692691235629,
+            "stop" : 1692691238162,
+            "duration" : 2533
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_delete_all_article_ok",
+          "uid" : "e309d8935503afad",
+          "parentUid" : "71028730d5cd1b2d5486921e48ba01d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1692691238162,
+            "stop" : 1692691238357,
+            "duration" : 195
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "71028730d5cd1b2d5486921e48ba01d5"
+      } ],
+      "uid" : "20a720b81ac1f83e94662a22e1536f03"
+    }, {
+      "name" : "test_Category",
+      "children" : [ {
+        "name" : "TestAdminLogin",
+        "children" : [ {
+          "name" : "test_admin_login[wxl-123456-222-JPress\\u540e\\u53f0]",
+          "uid" : "6e7b357be3cc3e86",
+          "parentUid" : "9726d49bc7e6e3277166419b5bcb4ffa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1692691239769,
+            "stop" : 1692691241149,
+            "duration" : 1380
+          },
+          "flaky" : true,
+          "parameters" : [ "'222'", "'JPress后台'", "'123456'", "'wxl'" ]
+        } ],
+        "uid" : "9726d49bc7e6e3277166419b5bcb4ffa"
+      }, {
+        "name" : "TestCategory",
+        "children" : [ {
+          "name" : "test_add_category[-\\u9876\\u7ea7-test-\\u8fd9\\u662f\\u5fc5\\u586b\\u5185\\u5bb9]",
+          "uid" : "fad580cd055e381a",
+          "parentUid" : "793bf5c2fdcde3ec1ccddf642c8fb2ee",
+          "status" : "passed",
+          "time" : {
+            "start" : 1692691241165,
+            "stop" : 1692691242241,
+            "duration" : 1076
+          },
+          "flaky" : false,
+          "parameters" : [ "'这是必填内容'", "''", "'顶级'", "'test'" ]
+        }, {
+          "name" : "test_add_category[demo-\\u9876\\u7ea7-demo-]",
+          "uid" : "88396b10bf5fa821",
+          "parentUid" : "793bf5c2fdcde3ec1ccddf642c8fb2ee",
+          "status" : "passed",
+          "time" : {
+            "start" : 1692691242247,
+            "stop" : 1692691242451,
+            "duration" : 204
+          },
+          "flaky" : false,
+          "parameters" : [ "''", "'demo'", "'顶级'", "'demo'" ]
+        } ],
+        "uid" : "793bf5c2fdcde3ec1ccddf642c8fb2ee"
+      } ],
+      "uid" : "3ba4e19604f00a15a3723996ce6b9c02"
+    }, {
+      "name" : "test_UserLogin",
+      "children" : [ {
+        "name" : "TestUserLogin",
+        "children" : [ {
+          "name" : "test_user_login[wxl-123456--\\u9a8c\\u8bc1\\u7801\\u4e0d\\u80fd\\u4e3a\\u7a7a]",
+          "uid" : "ab8abfea76b34be2",
+          "parentUid" : "94828d8bd5b5993f2f711926531ae243",
+          "status" : "passed",
+          "time" : {
+            "start" : 1692691243901,
+            "stop" : 1692691244260,
+            "duration" : 359
+          },
+          "flaky" : false,
+          "parameters" : [ "''", "'验证码不能为空'", "'123456'", "'wxl'" ]
+        }, {
+          "name" : "test_user_login[wxl-123456-111-\\u7528\\u6237\\u4e2d\\u5fc3]",
+          "uid" : "bc45b6e6e584af1",
+          "parentUid" : "94828d8bd5b5993f2f711926531ae243",
+          "status" : "passed",
+          "time" : {
+            "start" : 1692691244268,
+            "stop" : 1692691245113,
+            "duration" : 845
+          },
+          "flaky" : false,
+          "parameters" : [ "'111'", "'用户中心'", "'123456'", "'wxl'" ]
+        } ],
+        "uid" : "94828d8bd5b5993f2f711926531ae243"
+      } ],
+      "uid" : "c5a71851a2f4fbf64637d86af6d32733"
+    }, {
+      "name" : "test_UserRegister",
+      "children" : [ {
+        "name" : "TestUserRegister",
+        "children" : [ {
+          "name" : "test_register[test01-test001@qq.com-123456-123456-666-\\u9a8c\\u8bc1\\u7801\\u4e0d\\u6b63\\u786e]",
+          "uid" : "fecb61cdbfa27796",
+          "parentUid" : "6502b251cd0552d3bf45fdfec344e927",
+          "status" : "passed",
+          "time" : {
+            "start" : 1692691246705,
+            "stop" : 1692691247230,
+            "duration" : 525
+          },
+          "flaky" : false,
+          "parameters" : [ "'666'", "'123456'", "'test001@qq.com'", "'验证码不正确'", "'123456'", "'test01'" ]
+        }, {
+          "name" : "test_register[XX-XX@qq.com-123456-123456-111-\\u6ce8\\u518c\\u6210\\u529f\\uff0c\\u70b9\\u51fb\\u786e\\u5b9a\\u8fdb\\u884c\\u767b\\u5f55\\u3002]",
+          "uid" : "c942c405ccdc5765",
+          "parentUid" : "6502b251cd0552d3bf45fdfec344e927",
+          "status" : "passed",
+          "time" : {
+            "start" : 1692691247245,
+            "stop" : 1692691248597,
+            "duration" : 1352
+          },
+          "flaky" : false,
+          "parameters" : [ "'111'", "'123456'", "'XX@qq.com'", "'注册成功，点击确定进行登录。'", "'123456'", "'XX'" ]
+        } ],
+        "uid" : "6502b251cd0552d3bf45fdfec344e927"
+      } ],
+      "uid" : "39056209ab0e51c81e8696dc481924f4"
+    } ],
+    "uid" : "5ae59b93d66990a73a3e92fbcf0ee3e6"
+  } ]
+}

@@ -1,0 +1,4 @@
+INFO     mylogger:categoryPage.py:44 分类创建：输入分类名称：demo
+INFO     mylogger:categoryPage.py:50 分类创建：选择父分类：顶级
+INFO     mylogger:categoryPage.py:57 分类创建：输入固定链接：demo
+INFO     mylogger:categoryPage.py:63 分类创建：点击添加按钮

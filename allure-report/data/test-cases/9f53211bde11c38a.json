@@ -1,0 +1,102 @@
+{
+  "uid" : "9f53211bde11c38a",
+  "name" : "test_delete_all_article_ok",
+  "fullName" : "testcases.pom.tests.test_Article.TestArticle#test_delete_all_article_ok",
+  "historyId" : "7d8c312858347ec4ebd9d55e3297752d",
+  "time" : {
+    "start" : 1692684881452,
+    "stop" : 1692684881656,
+    "duration" : 204
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestArticle",
+    "time" : {
+      "start" : 1692684874899,
+      "stop" : 1692684874965,
+      "duration" : 66
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8790476c98854c92",
+      "name" : "log",
+      "source" : "8790476c98854c92.txt",
+      "type" : "text/plain",
+      "size" : 315
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestArticle::0",
+    "time" : {
+      "start" : 1692684881656,
+      "stop" : 1692684881656,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "dependency(depends=['admin_login'], scope='module')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.pom.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_Article"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestArticle"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-ME9GP0E"
+  }, {
+    "name" : "thread",
+    "value" : "5952-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.pom.tests.test_Article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "dependency(depends=['admin_login'], scope='module')" ]
+  },
+  "source" : "9f53211bde11c38a.json",
+  "parameterValues" : [ ]
+}

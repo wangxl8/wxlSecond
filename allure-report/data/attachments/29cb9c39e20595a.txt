@@ -1,0 +1,5 @@
+INFO     mylogger:adminLoginPage.py:18 管理员登录
+INFO     mylogger:adminLoginPage.py:23 管理员登录：输入用户名：wxl
+INFO     mylogger:adminLoginPage.py:28 管理员登录：输入密码：123456
+INFO     mylogger:adminLoginPage.py:33 管理员登录：输入验证码：vybf
+INFO     mylogger:adminLoginPage.py:37 管理员登录：点击登录按钮

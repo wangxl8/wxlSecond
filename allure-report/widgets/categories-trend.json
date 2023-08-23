@@ -1,0 +1,11 @@
+[ {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:8081/job/wxlSecond/3/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:8081/job/wxlSecond/1/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+} ]

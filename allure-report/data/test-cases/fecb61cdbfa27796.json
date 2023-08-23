@@ -1,0 +1,289 @@
+{
+  "uid" : "fecb61cdbfa27796",
+  "name" : "test_register[test01-test001@qq.com-123456-123456-666-\\u9a8c\\u8bc1\\u7801\\u4e0d\\u6b63\\u786e]",
+  "fullName" : "testcases.pom.tests.test_UserRegister.TestUserRegister#test_register",
+  "historyId" : "e4f8a98134d44092389cba8ea2e1ae13",
+  "time" : {
+    "start" : 1692691246705,
+    "stop" : 1692691247230,
+    "duration" : 525
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestUserRegister",
+    "time" : {
+      "start" : 1692691245119,
+      "stop" : 1692691246705,
+      "duration" : 1586
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤：进入用户注册页面",
+      "time" : {
+        "start" : 1692691246245,
+        "stop" : 1692691246704,
+        "duration" : 459
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤：输入注册用户名",
+      "time" : {
+        "start" : 1692691246705,
+        "stop" : 1692691246821,
+        "duration" : 116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'test01'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "步骤：输入邮箱",
+      "time" : {
+        "start" : 1692691246821,
+        "stop" : 1692691246946,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "'test001@qq.com'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "步骤：输入密码",
+      "time" : {
+        "start" : 1692691246946,
+        "stop" : 1692691247014,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "pwd",
+        "value" : "'123456'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "步骤：输入确认密码",
+      "time" : {
+        "start" : 1692691247014,
+        "stop" : 1692691247098,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "confirmPwd",
+        "value" : "'123456'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "步骤：输入验证码",
+      "time" : {
+        "start" : 1692691247098,
+        "stop" : 1692691247180,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "captcha",
+        "value" : "'666'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "步骤：点击注册按钮",
+      "time" : {
+        "start" : 1692691247180,
+        "stop" : 1692691247230,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "94a6088c6851dc49",
+      "name" : "log",
+      "source" : "94a6088c6851dc49.txt",
+      "type" : "text/plain",
+      "size" : 535
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestUserRegister::0",
+    "time" : {
+      "start" : 1692691248604,
+      "stop" : 1692691248604,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "故事点：用户注册测试"
+  }, {
+    "name" : "feature",
+    "value" : "模块描述：用户注册页面"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.pom.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_UserRegister"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserRegister"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-ME9GP0E"
+  }, {
+    "name" : "thread",
+    "value" : "26048-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.pom.tests.test_UserRegister"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "captcha",
+    "value" : "'666'"
+  }, {
+    "name" : "confirmPwd",
+    "value" : "'123456'"
+  }, {
+    "name" : "email",
+    "value" : "'test001@qq.com'"
+  }, {
+    "name" : "expected",
+    "value" : "'验证码不正确'"
+  }, {
+    "name" : "pwd",
+    "value" : "'123456'"
+  }, {
+    "name" : "username",
+    "value" : "'test01'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5b87b5566166333e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1692684926650,
+        "stop" : 1692684927176,
+        "duration" : 526
+      }
+    }, {
+      "uid" : "59fe0e1baad09a00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1692684889661,
+        "stop" : 1692684890199,
+        "duration" : 538
+      }
+    }, {
+      "uid" : "b2985219f552e08a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1692684065424,
+        "stop" : 1692684065966,
+        "duration" : 542
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "95bb9951570f5713",
+        "reportUrl" : "http://localhost:8081/job/wxlSecond/1/allure/#testresult/95bb9951570f5713",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692684889661,
+          "stop" : 1692684890199,
+          "duration" : 538
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fecb61cdbfa27796.json",
+  "parameterValues" : [ "'666'", "'123456'", "'test001@qq.com'", "'验证码不正确'", "'123456'", "'test01'" ]
+}

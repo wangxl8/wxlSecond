@@ -1,0 +1,5 @@
+[32mINFO    [0m mylogger:userLoginPage.py:19 用户登录
+[32mINFO    [0m mylogger:userLoginPage.py:24 用户登录：输入用户名：wxl
+[32mINFO    [0m mylogger:userLoginPage.py:29 用户登录：输入密码：123456
+[32mINFO    [0m mylogger:userLoginPage.py:34 用户登录：输入验证码：
+[32mINFO    [0m mylogger:userLoginPage.py:38 用户登录：点击登录按钮

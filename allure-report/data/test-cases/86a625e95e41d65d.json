@@ -1,0 +1,114 @@
+{
+  "uid" : "86a625e95e41d65d",
+  "name" : "test_admin_login[wxl-123456-222-JPress\\u540e\\u53f0]",
+  "fullName" : "testcases.pom.tests.test_Article.TestAdminLogin#test_admin_login",
+  "historyId" : "77de64c052c7d6e97ef25cdc47430264",
+  "time" : {
+    "start" : 1692684912009,
+    "stop" : 1692684913041,
+    "duration" : 1032
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestAdminLogin",
+    "time" : {
+      "start" : 1692684908585,
+      "stop" : 1692684912005,
+      "duration" : 3420
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "29cb9c39e20595a",
+      "name" : "log",
+      "source" : "29cb9c39e20595a.txt",
+      "type" : "text/plain",
+      "size" : 368
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestAdminLogin::0",
+    "time" : {
+      "start" : 1692684913043,
+      "stop" : 1692684913043,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "dependency(name='admin_login')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.pom.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_Article"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAdminLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-ME9GP0E"
+  }, {
+    "name" : "thread",
+    "value" : "21784-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.pom.tests.test_Article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "captcha",
+    "value" : "'222'"
+  }, {
+    "name" : "excepted",
+    "value" : "'JPress后台'"
+  }, {
+    "name" : "pwd",
+    "value" : "'123456'"
+  }, {
+    "name" : "username",
+    "value" : "'wxl'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "dependency(name='admin_login')" ]
+  },
+  "source" : "86a625e95e41d65d.json",
+  "parameterValues" : [ "'222'", "'JPress后台'", "'123456'", "'wxl'" ]
+}

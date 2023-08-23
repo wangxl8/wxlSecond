@@ -1,0 +1,111 @@
+{
+  "uid" : "2d2bf8de8535bbcb",
+  "name" : "test_add_ok[\\u6211\\u7684\\u6587\\u7ae003-\\u6211\\u7684\\u6587\\u7ae0\\u5185\\u5bb903-\\u6587\\u7ae0\\u4fdd\\u5b58\\u6210\\u529f\\u3002]",
+  "fullName" : "testcases.pom.tests.test_Article.TestArticle#test_add_ok",
+  "historyId" : "16886f059402a82c786314ba3264df7b",
+  "time" : {
+    "start" : 1692684053278,
+    "stop" : 1692684054170,
+    "duration" : 892
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestArticle",
+    "time" : {
+      "start" : 1692684050623,
+      "stop" : 1692684050691,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3816a092e4d7a3bb",
+      "name" : "log",
+      "source" : "3816a092e4d7a3bb.txt",
+      "type" : "text/plain",
+      "size" : 452
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestArticle::0",
+    "time" : {
+      "start" : 1692684056957,
+      "stop" : 1692684056957,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "dependency(depends=['admin_login'], scope='module')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.pom.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_Article"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestArticle"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-ME9GP0E"
+  }, {
+    "name" : "thread",
+    "value" : "28268-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.pom.tests.test_Article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "content",
+    "value" : "'我的文章内容03'"
+  }, {
+    "name" : "expected",
+    "value" : "'文章保存成功。'"
+  }, {
+    "name" : "title",
+    "value" : "'我的文章03'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "dependency(depends=['admin_login'], scope='module')" ]
+  },
+  "source" : "2d2bf8de8535bbcb.json",
+  "parameterValues" : [ "'我的文章内容03'", "'文章保存成功。'", "'我的文章03'" ]
+}

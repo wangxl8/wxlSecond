@@ -1,0 +1,114 @@
+{
+  "uid" : "fb9f094de03a0b5d",
+  "name" : "test_add_category[-\\u9876\\u7ea7-test-\\u8fd9\\u662f\\u5fc5\\u586b\\u5185\\u5bb9]",
+  "fullName" : "testcases.pom.tests.test_Category.TestCategory#test_add_category",
+  "historyId" : "2956a6600a6e45206624835151cad6d2",
+  "time" : {
+    "start" : 1692684060097,
+    "stop" : 1692684061265,
+    "duration" : 1168
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCategory",
+    "time" : {
+      "start" : 1692684060097,
+      "stop" : 1692684060097,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6928ed91b4bc1eb7",
+      "name" : "log",
+      "source" : "6928ed91b4bc1eb7.txt",
+      "type" : "text/plain",
+      "size" : 507
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCategory::0",
+    "time" : {
+      "start" : 1692684061455,
+      "stop" : 1692684061455,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "dependency(depends=['admin_login'], scope='module')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.pom.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_Category"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCategory"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-ME9GP0E"
+  }, {
+    "name" : "thread",
+    "value" : "28268-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.pom.tests.test_Category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "'这是必填内容'"
+  }, {
+    "name" : "name",
+    "value" : "''"
+  }, {
+    "name" : "parent",
+    "value" : "'顶级'"
+  }, {
+    "name" : "slug",
+    "value" : "'test'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "dependency(depends=['admin_login'], scope='module')" ]
+  },
+  "source" : "fb9f094de03a0b5d.json",
+  "parameterValues" : [ "'这是必填内容'", "''", "'顶级'", "'test'" ]
+}

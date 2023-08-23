@@ -1,0 +1,236 @@
+{
+  "uid" : "88396b10bf5fa821",
+  "name" : "test_add_category[demo-\\u9876\\u7ea7-demo-]",
+  "fullName" : "testcases.pom.tests.test_Category.TestCategory#test_add_category",
+  "historyId" : "d725f142bb87c64e60636118816a19c0",
+  "time" : {
+    "start" : 1692691242247,
+    "stop" : 1692691242451,
+    "duration" : 204
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCategory",
+    "time" : {
+      "start" : 1692691241163,
+      "stop" : 1692691241165,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤：输入分类名称",
+      "time" : {
+        "start" : 1692691242247,
+        "stop" : 1692691242308,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'demo'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "步骤：选择父分类",
+      "time" : {
+        "start" : 1692691242308,
+        "stop" : 1692691242333,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "parent_name",
+        "value" : "'顶级'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "步骤：输入固定链接",
+      "time" : {
+        "start" : 1692691242333,
+        "stop" : 1692691242416,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "slug",
+        "value" : "'demo'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "步骤：点击添加按钮",
+      "time" : {
+        "start" : 1692691242416,
+        "stop" : 1692691242451,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5d2f838808fa66b0",
+      "name" : "log",
+      "source" : "5d2f838808fa66b0.txt",
+      "type" : "text/plain",
+      "size" : 303
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCategory::0",
+    "time" : {
+      "start" : 1692691242451,
+      "stop" : 1692691242451,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "模块描述：分类页面"
+  }, {
+    "name" : "story",
+    "value" : "故事点：新增分类测试"
+  }, {
+    "name" : "tag",
+    "value" : "dependency(depends=['admin_login'], scope='module')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.pom.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_Category"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCategory"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-ME9GP0E"
+  }, {
+    "name" : "thread",
+    "value" : "26048-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.pom.tests.test_Category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "''"
+  }, {
+    "name" : "name",
+    "value" : "'demo'"
+  }, {
+    "name" : "parent",
+    "value" : "'顶级'"
+  }, {
+    "name" : "slug",
+    "value" : "'demo'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fbcce03969f61859",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: test_add_category[demo-\\u9876\\u7ea7-demo-] depends on admin_login",
+      "time" : {
+        "start" : 1692684922067,
+        "stop" : 1692684922067,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b2395b6e6c46341a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1692684885442,
+        "stop" : 1692684885659,
+        "duration" : 217
+      }
+    }, {
+      "uid" : "8ad079d9b6f326c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1692684061265,
+        "stop" : 1692684061455,
+        "duration" : 190
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7c6c6b3229e08e6e",
+        "reportUrl" : "http://localhost:8081/job/wxlSecond/1/allure/#testresult/7c6c6b3229e08e6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692684885442,
+          "stop" : 1692684885659,
+          "duration" : 217
+        }
+      } ]
+    },
+    "tags" : [ "dependency(depends=['admin_login'], scope='module')" ]
+  },
+  "source" : "88396b10bf5fa821.json",
+  "parameterValues" : [ "''", "'demo'", "'顶级'", "'demo'" ]
+}

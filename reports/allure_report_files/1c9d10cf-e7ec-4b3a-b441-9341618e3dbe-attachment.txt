@@ -1,0 +1,4 @@
+[32mINFO    [0m mylogger:categoryPage.py:40 分类创建：输入分类名称：demo
+[32mINFO    [0m mylogger:categoryPage.py:45 分类创建：选择父分类：顶级
+[32mINFO    [0m mylogger:categoryPage.py:51 分类创建：输入固定链接：demo
+[32mINFO    [0m mylogger:categoryPage.py:56 分类创建：点击添加按钮

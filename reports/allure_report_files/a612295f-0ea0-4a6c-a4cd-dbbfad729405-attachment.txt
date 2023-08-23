@@ -1,0 +1,6 @@
+INFO     mylogger:categoryPage.py:28 分类创建：点击左侧栏的文章
+INFO     mylogger:categoryPage.py:34 分类创建：点击左侧栏的分类
+INFO     mylogger:categoryPage.py:40 分类创建：输入分类名称：
+INFO     mylogger:categoryPage.py:45 分类创建：选择父分类：顶级
+INFO     mylogger:categoryPage.py:51 分类创建：输入固定链接：test
+INFO     mylogger:categoryPage.py:56 分类创建：点击添加按钮

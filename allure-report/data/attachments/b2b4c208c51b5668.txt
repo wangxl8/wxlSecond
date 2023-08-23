@@ -1,0 +1,3 @@
+INFO     mylogger:articlePage.py:50 文章创建：点击左侧栏的文章管理
+INFO     mylogger:articlePage.py:77 单个文章删除：鼠标移至要删除的文章标题上，使其展示出删除按钮
+INFO     mylogger:articlePage.py:80 单个文章删除：点击移至垃圾箱，进行删除

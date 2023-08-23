@@ -1,0 +1,6 @@
+DEBUG    mylogger:userRegisterPage.py:27 用户注册：输入用户名：vRyD1MpK
+DEBUG    mylogger:userRegisterPage.py:32 用户注册：输入邮箱：vRyD1MpK@qq.com
+DEBUG    mylogger:userRegisterPage.py:37 用户注册：输入密码：123456
+DEBUG    mylogger:userRegisterPage.py:42 用户注册：输入确认密码：123456
+DEBUG    mylogger:userRegisterPage.py:47 用户注册：输入验证码：hnqe
+DEBUG    mylogger:userRegisterPage.py:51 用户注册：点击注册按钮

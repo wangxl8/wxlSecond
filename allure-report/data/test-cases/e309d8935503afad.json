@@ -1,0 +1,187 @@
+{
+  "uid" : "e309d8935503afad",
+  "name" : "test_delete_all_article_ok",
+  "fullName" : "testcases.pom.tests.test_Article.TestArticle#test_delete_all_article_ok",
+  "historyId" : "7d8c312858347ec4ebd9d55e3297752d",
+  "time" : {
+    "start" : 1692691238162,
+    "stop" : 1692691238357,
+    "duration" : 195
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestArticle",
+    "time" : {
+      "start" : 1692691232030,
+      "stop" : 1692691232102,
+      "duration" : 72
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤：管理员登录",
+      "time" : {
+        "start" : 1692691232030,
+        "stop" : 1692691232030,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "<testcases.pom.tests.test_AdminLogin.TestAdminLogin object at 0x000002262B427650>"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "步骤：点击左侧栏文章菜单",
+      "time" : {
+        "start" : 1692691232031,
+        "stop" : 1692691232102,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ecc2391b2a4a3e1f",
+      "name" : "log",
+      "source" : "ecc2391b2a4a3e1f.txt",
+      "type" : "text/plain",
+      "size" : 317
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestArticle::0",
+    "time" : {
+      "start" : 1692691238357,
+      "stop" : 1692691238357,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "模块描述：文章管理页面"
+  }, {
+    "name" : "story",
+    "value" : "故事点：删除全部文章测试"
+  }, {
+    "name" : "tag",
+    "value" : "dependency(depends=['admin_login'], scope='module')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.pom.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_Article"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestArticle"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-ME9GP0E"
+  }, {
+    "name" : "thread",
+    "value" : "26048-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.pom.tests.test_Article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b6925143b7c1b71a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1692684919546,
+        "stop" : 1692684919731,
+        "duration" : 185
+      }
+    }, {
+      "uid" : "9f53211bde11c38a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1692684881452,
+        "stop" : 1692684881656,
+        "duration" : 204
+      }
+    }, {
+      "uid" : "9bcf1cadd44c096f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1692684056769,
+        "stop" : 1692684056957,
+        "duration" : 188
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "aea7dc617c408a60",
+        "reportUrl" : "http://localhost:8081/job/wxlSecond/1/allure/#testresult/aea7dc617c408a60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692684881452,
+          "stop" : 1692684881656,
+          "duration" : 204
+        }
+      } ]
+    },
+    "tags" : [ "dependency(depends=['admin_login'], scope='module')" ]
+  },
+  "source" : "e309d8935503afad.json",
+  "parameterValues" : [ ]
+}

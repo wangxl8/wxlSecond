@@ -1,0 +1,4 @@
+INFO     mylogger:articlePage.py:86 批量删除：点击全选按钮
+INFO     mylogger:articlePage.py:90 批量删除：选择批量操作中的批量删除
+INFO     mylogger:articlePage.py:93 批量删除：点击确定按钮
+INFO     mylogger:articlePage.py:98 批量删除：在二次确认弹窗中点击确定

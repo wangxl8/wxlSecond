@@ -1,0 +1,5 @@
+INFO     mylogger:articlePage.py:55 文章创建：点击左侧栏的文章管理
+INFO     mylogger:articlePage.py:61 文章创建：点击添加文章按钮
+INFO     mylogger:articlePage.py:67 文章创建：输入文章标题：我的文章02
+INFO     mylogger:articlePage.py:73 文章创建：输入文章内容：我的文章内容02
+INFO     mylogger:articlePage.py:79 文章创建：点击创建按钮

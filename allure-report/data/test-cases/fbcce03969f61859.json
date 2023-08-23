@@ -1,0 +1,70 @@
+{
+  "uid" : "fbcce03969f61859",
+  "name" : "test_add_category[demo-\\u9876\\u7ea7-demo-]",
+  "fullName" : "testcases.pom.tests.test_Category.TestCategory#test_add_category",
+  "historyId" : "d725f142bb87c64e60636118816a19c0",
+  "time" : {
+    "start" : 1692684922067,
+    "stop" : 1692684922067,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: test_add_category[demo-\\u9876\\u7ea7-demo-] depends on admin_login",
+  "statusTrace" : "('C:\\\\Users\\\\admin\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\Lib\\\\site-packages\\\\pytest_dependency.py', 103, 'Skipped: test_add_category[demo-\\\\u9876\\\\u7ea7-demo-] depends on admin_login')",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "dependency(depends=['admin_login'], scope='module')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.pom.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_Category"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCategory"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-ME9GP0E"
+  }, {
+    "name" : "thread",
+    "value" : "21784-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.pom.tests.test_Category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "''"
+  }, {
+    "name" : "name",
+    "value" : "'demo'"
+  }, {
+    "name" : "parent",
+    "value" : "'顶级'"
+  }, {
+    "name" : "slug",
+    "value" : "'demo'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "dependency(depends=['admin_login'], scope='module')" ]
+  },
+  "source" : "fbcce03969f61859.json",
+  "parameterValues" : [ "''", "'demo'", "'顶级'", "'demo'" ]
+}

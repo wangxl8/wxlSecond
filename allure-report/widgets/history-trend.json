@@ -1,0 +1,25 @@
+[ {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:8081/job/wxlSecond/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 14,
+    "unknown" : 0,
+    "total" : 14
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:8081/job/wxlSecond/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 14,
+    "unknown" : 0,
+    "total" : 14
+  }
+} ]

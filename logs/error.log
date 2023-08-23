@@ -1,0 +1,179 @@
+2023-08-17 11:37:05,728 - ERROR - testUserRegister.py[:49] - 小王，程序断言失败，注册流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testUserRegister.py", line 47, in test_register
+    assert alert.text == expected
+AssertionError: assert '验证码不正确' == '注册成功，点击确定进111行登录。'
+  - 注册成功，点击确定进111行登录。
+  + 验证码不正确
+2023-08-17 11:37:27,317 - ERROR - testUserRegister.py[:49] - 小王，程序断言失败，注册流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testUserRegister.py", line 47, in test_register
+    assert alert.text == expected
+AssertionError: assert '该用户名已经存在' == '注册成功，点击确定进111行登录。'
+  - 注册成功，点击确定进111行登录。
+  + 该用户名已经存在
+2023-08-18 16:15:55,675 - ERROR - testUserRegister.py[:49] - 小王，程序断言失败，注册流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testUserRegister.py", line 47, in test_register
+    assert alert.text == expected
+AssertionError: assert '该用户名已经存在' == '注册成功，点击确定进111行登录。'
+  - 注册成功，点击确定进111行登录。
+  + 该用户名已经存在
+2023-08-18 16:38:57,921 - ERROR - testUserRegister.py[:53] - 小王，程序断言失败，注册流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testUserRegister.py", line 51, in test_register
+    assert alert.text == expected
+AssertionError: assert '注册成功，点击确定进行登录。' == '注册成功，点击确定进111行登录。'
+  - 注册成功，点击确定进111行登录。
+  ?           ---
+  + 注册成功，点击确定进行登录。
+2023-08-18 17:13:33,842 - ERROR - testUserRegister.py[:55] - 小王，程序断言失败，注册流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testUserRegister.py", line 53, in test_register
+    assert alert.text == expected
+AssertionError: assert '注册成功，点击确定进行登录。' == '验证码不正确'
+  - 验证码不正确
+  + 注册成功，点击确定进行登录。
+2023-08-18 17:16:50,444 - ERROR - testUserRegister.py[:55] - 小王，程序断言失败，注册流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testUserRegister.py", line 53, in test_register
+    assert alert.text == expected
+AssertionError: assert '该用户名已经存在' == '验证码不正确'
+  - 验证码不正确
+  + 该用户名已经存在
+2023-08-18 17:19:07,770 - ERROR - testUserRegister.py[:55] - 小王，程序断言失败，注册流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testUserRegister.py", line 53, in test_register
+    assert alert.text == expected
+AssertionError: assert '该用户名已经存在' == '验证码不正确'
+  - 验证码不正确
+  + 该用户名已经存在
+2023-08-21 10:08:43,346 - ERROR - testArticle.py[:44] - 小王，程序断言失败，新建文章流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testArticle.py", line 42, in test_add_ok
+    assert msg == expected
+AssertionError: assert '×\n文章保存成功。' == '×\\n文章保存成功。'
+  + ×
+  - ×\n文章保存成功。
+  ? ---
+  + 文章保存成功。
+2023-08-21 10:09:05,771 - ERROR - testArticle.py[:44] - 小王，程序断言失败，新建文章流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testArticle.py", line 42, in test_add_ok
+    assert msg == expected
+AssertionError: assert '×\n文章保存成功。' == '×\\n文章保存成功。'
+  + ×
+  - ×\n文章保存成功。
+  ? ---
+  + 文章保存成功。
+2023-08-21 10:09:27,604 - ERROR - testArticle.py[:44] - 小王，程序断言失败，新建文章流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testArticle.py", line 42, in test_add_ok
+    assert msg == expected
+AssertionError: assert '×\n文章保存成功。' == '×\\n文章保存成功。'
+  + ×
+  - ×\n文章保存成功。
+  ? ---
+  + 文章保存成功。
+2023-08-21 10:13:54,443 - ERROR - testArticle.py[:44] - 小王，程序断言失败，新建文章流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testArticle.py", line 42, in test_add_ok
+    assert msg == expected
+AssertionError: assert '×\n文章保存成功。' == '×\\n文章保存成功。'
+  + ×
+  - ×\n文章保存成功。
+  ? ---
+  + 文章保存成功。
+2023-08-21 10:14:16,235 - ERROR - testArticle.py[:44] - 小王，程序断言失败，新建文章流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testArticle.py", line 42, in test_add_ok
+    assert msg == expected
+AssertionError: assert '×\n文章保存成功。' == '×\\n文章保存成功。'
+  + ×
+  - ×\n文章保存成功。
+  ? ---
+  + 文章保存成功。
+2023-08-21 10:14:37,564 - ERROR - testArticle.py[:44] - 小王，程序断言失败，新建文章流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testArticle.py", line 42, in test_add_ok
+    assert msg == expected
+AssertionError: assert '×\n文章保存成功。' == '×\\n文章保存成功。'
+  + ×
+  - ×\n文章保存成功。
+  ? ---
+  + 文章保存成功。
+2023-08-21 13:54:46,923 - ERROR - testArticle.py[:44] - 小王，程序断言失败，新建文章流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testArticle.py", line 42, in test_add_ok
+    assert msg == expected
+AssertionError: assert '×\n文章保存成功。' == '×\\n文章保存成功。'
+  + ×
+  - ×\n文章保存成功。
+  ? ---
+  + 文章保存成功。
+2023-08-21 13:54:47,832 - ERROR - testArticle.py[:44] - 小王，程序断言失败，新建文章流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testArticle.py", line 42, in test_add_ok
+    assert msg == expected
+AssertionError: assert '×\n文章保存成功。' == '×\\n文章保存成功。'
+  + ×
+  - ×\n文章保存成功。
+  ? ---
+  + 文章保存成功。
+2023-08-21 13:54:48,630 - ERROR - testArticle.py[:44] - 小王，程序断言失败，新建文章流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testArticle.py", line 42, in test_add_ok
+    assert msg == expected
+AssertionError: assert '×\n文章保存成功。' == '×\\n文章保存成功。'
+  + ×
+  - ×\n文章保存成功。
+  ? ---
+  + 文章保存成功。
+2023-08-21 15:11:57,851 - ERROR - testArticle.py[:44] - 小王，程序断言失败，新建文章流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testArticle.py", line 42, in test_add_ok
+    assert msg == '\n' + expected
+AssertionError: assert '×\n文章保存成功。' == '\n文章保存成功。'
+  - 
+  + ×
+    文章保存成功。
+2023-08-21 15:11:58,775 - ERROR - testArticle.py[:44] - 小王，程序断言失败，新建文章流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testArticle.py", line 42, in test_add_ok
+    assert msg == '\n' + expected
+AssertionError: assert '×\n文章保存成功。' == '\n文章保存成功。'
+  - 
+  + ×
+    文章保存成功。
+2023-08-21 15:11:59,639 - ERROR - testArticle.py[:44] - 小王，程序断言失败，新建文章流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testArticle.py", line 42, in test_add_ok
+    assert msg == '\n' + expected
+AssertionError: assert '×\n文章保存成功。' == '\n文章保存成功。'
+  - 
+  + ×
+    文章保存成功。
+2023-08-21 15:12:34,834 - ERROR - testArticle.py[:44] - 小王，程序断言失败，新建文章流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testArticle.py", line 42, in test_add_ok
+    assert msg == 'x\n' + expected
+AssertionError: assert '×\n文章保存成功。' == 'x\n文章保存成功。'
+  - x
+  + ×
+    文章保存成功。
+2023-08-21 15:12:35,816 - ERROR - testArticle.py[:44] - 小王，程序断言失败，新建文章流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testArticle.py", line 42, in test_add_ok
+    assert msg == 'x\n' + expected
+AssertionError: assert '×\n文章保存成功。' == 'x\n文章保存成功。'
+  - x
+  + ×
+    文章保存成功。
+2023-08-21 15:12:36,666 - ERROR - testArticle.py[:44] - 小王，程序断言失败，新建文章流程报错啦
+Traceback (most recent call last):
+  File "C:\pythonProject\wxlSecond\testcases\pom\tests\testArticle.py", line 42, in test_add_ok
+    assert msg == 'x\n' + expected
+AssertionError: assert '×\n文章保存成功。' == 'x\n文章保存成功。'
+  - x
+  + ×
+    文章保存成功。
