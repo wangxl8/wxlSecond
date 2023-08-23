@@ -6,12 +6,14 @@ from testcases.pom.pages.adminLoginPage import AdminLoginPage
 
 from util import util
 import allure
+import os
 
 
 @allure.feature('模块描述：管理员登录页面')
 class TestAdminLogin(object):
+    file_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))) + "\\data\\data.xlsx"
 
-    admin_login_data = util.get_excel_rowdata(r'C:\pythonProject\wxlSecond\data\data.xlsx', 'adminlogin')
+    admin_login_data = util.get_excel_rowdata(file_path, 'adminlogin')
 
     # admin_login_data = [
     #     # ('wxl',  '123456', '111', '验证码不正确，请重新输入'),

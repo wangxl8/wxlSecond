@@ -6,12 +6,13 @@ from testcases.pom.tests.test_AdminLogin import TestAdminLogin
 import pytest
 from testcases.pom.pages.categoryPage import CategoryPage
 from util import util
+import os
 
 
 @allure.feature('模块描述：分类页面')
 class TestCategory(object):
-
-    category_data = util.get_excel_rowdata(r'C:\pythonProject\wxlSecond\data\data.xlsx', 'category')
+    file_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))) + "\\data\\data.xlsx"
+    category_data = util.get_excel_rowdata(file_path, 'category')
 
     # category_data = [
     #     ('', '顶级', 'test', '这是必填内容'),

@@ -7,11 +7,13 @@ from testcases.pom.pages.articlePage import ArticlePage
 from testcases.pom.tests.test_AdminLogin import TestAdminLogin
 from util import util
 import allure
+import os
 
 
 @allure.feature('模块描述：文章管理页面')
 class TestArticle(object):
-    article_data = util.get_excel_rowdata(r'C:\pythonProject\wxlSecond\data\data.xlsx', 'article')
+    file_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))) + "\\data\\data.xlsx"
+    article_data = util.get_excel_rowdata(file_path, 'article')
     # article_data = [
     #     ('我的文章01', '我的文章内容01', '×\n文章保存成功。'),
     #     ('我的文章02', '我的文章内容02', '×\n文章保存成功。'),

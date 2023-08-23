@@ -6,11 +6,13 @@ from testcases.pom.pages.userLoginPage import UserLoginPage
 
 from util import util
 import allure
+import os
 
 
 @allure.feature('模块描述：用户登录页面')
 class TestUserLogin(object):
-    login_data = util.get_excel_rowdata(r'C:\pythonProject\wxlSecond\data\data.xlsx', 'login')
+    file_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))) + "\\data\\data.xlsx"
+    login_data = util.get_excel_rowdata(file_path, 'login')
 
     # login_data = [
     #     ('wxl',  '123456', '', '验证码不能为空'),

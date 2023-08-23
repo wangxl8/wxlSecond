@@ -7,12 +7,13 @@ from testcases.pom.pages.userRegisterPage import UserRegisterPage
 
 from util import util
 import allure
+import os
 
 
 @allure.feature('模块描述：用户注册页面')
 class TestUserRegister(object):
-
-    login_data = util.get_excel_rowdata(r'C:\pythonProject\wxlSecond\data\data.xlsx', 'register')
+    file_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))) + "\\data\\data.xlsx"
+    login_data = util.get_excel_rowdata(file_path, 'register')
     # login_data = [
     #     ('test01', 'test001@qq.com', '123456', '123456', '666', '验证码不正确'),
     #     ('XX', 'XX@qq.com', '123456', '123456', '111', '注册成功，点击确定进行登录。')
